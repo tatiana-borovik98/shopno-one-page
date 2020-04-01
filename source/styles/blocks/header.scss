@@ -1,0 +1,20 @@
+.header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  margin-top: 70px;
+    &__container{
+      display: grid;
+      grid-template-columns: 113px 1fr 16px;
+    }
+
+    &__logo{
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+    &__burger{
+      grid-column-start: 3;
+      grid-column-end: 4;
+    }
+}
